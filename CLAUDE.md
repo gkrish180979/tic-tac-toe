@@ -17,11 +17,12 @@ open tictactoe.html
 
 - `~/bin/gh` is the GitHub CLI (installed locally, not system-wide)
 - Remote: https://github.com/gkrish180979/tic-tac-toe
-- After every change: commit with a descriptive message and push to `main`
+- **Commit and push after every meaningful unit of work** — feature added, bug fixed, file created. Never leave work uncommitted at the end of a session. This ensures we can always revert to a known-good state.
+- Use clean, descriptive commit messages that summarize *what* changed and *why*
 
 ```bash
 git add <file>
-git commit -m "Description of change"
+git commit -m "Short descriptive summary of the change"
 git push
 ```
 
